@@ -1,0 +1,39 @@
+<div class="container">
+    <div>
+        <p class="h2 text-center mt-3 bungee-tint-regular">
+            Welcome To Disney
+        </p>
+    </div>
+    
+    <div class="p-3 row dashboard-card" id="even">
+        <img [ngSrc]="image_2" alt="castle" width="200" height="370" class="col-sm">
+        <div class="col-sm">
+            <p class="h3">
+                Check out Disney Characters
+            </p>
+            <p>
+                A good way to be introduced to new disney shows and characters that you may not have known existed since the inception of Disney and their animations
+            </p>
+                        
+            <button class="btn btn-primary justify-content-end" routerLink="characters">
+                View Characters
+            </button>
+        </div>
+    
+    </div>
+    
+    <div class="p-3 row dashboard-card" id="odd">
+        <div class="col-sm">
+                <p class="h3">
+                    Build your own deck
+                </p>
+                <p>
+                    Add the characters and show off your favorites toons, check out their biographies and share with others!
+                </p>
+                <div>
+                    <button class="btn btn-primary col-sm" routerLink="deck">View Deck</button>
+                </div>
+        </div>
+        <img [ngSrc]="image_1" alt="starwars chewy" width="250" height="375" class="col-sm">
+    </div>
+</div>
